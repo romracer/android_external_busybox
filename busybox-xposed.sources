@@ -1,8 +1,24 @@
+archival/bbunzip.c
+archival/gzip.c
+archival/tar.c
 archival/unzip.c
+archival/libarchive/data_align.c
+archival/libarchive/data_extract_all.c
+archival/libarchive/data_extract_to_stdout.c
+archival/libarchive/data_skip.c
 archival/libarchive/decompress_bunzip2.c
 archival/libarchive/decompress_gunzip.c
+archival/libarchive/header_list.c
+archival/libarchive/header_skip.c
+archival/libarchive/header_verbose_list.c
+archival/libarchive/filter_accept_all.c
+archival/libarchive/filter_accept_reject_list.c
 archival/libarchive/find_list_entry.c
+archival/libarchive/get_header_tar.c
+archival/libarchive/init_handle.c
 archival/libarchive/open_transformer.c
+archival/libarchive/seek_by_jump.c
+archival/libarchive/seek_by_read.c
 
 coreutils/basename.c
 coreutils/cat.c
@@ -85,6 +101,7 @@ libbb/platform.c
 libbb/printable_string.c
 libbb/process_escape_sequence.c
 libbb/procps.c
+libbb/ptr_to_globals.c
 libbb/read.c
 libbb/read_printf.c
 libbb/recursive_action.c
