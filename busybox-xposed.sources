@@ -1,10 +1,24 @@
 archival/bbunzip.c
+archival/cpio.c
 archival/gzip.c
 archival/unzip.c
+archival/libarchive/data_align.c
+archival/libarchive/data_extract_all.c
+archival/libarchive/data_extract_to_stdout.c
+archival/libarchive/data_skip.c
 archival/libarchive/decompress_bunzip2.c
 archival/libarchive/decompress_gunzip.c
+archival/libarchive/filter_accept_all.c
+archival/libarchive/filter_accept_list.c
 archival/libarchive/find_list_entry.c
+archival/libarchive/get_header_cpio.c
+archival/libarchive/header_list.c
+archival/libarchive/header_skip.c
+archival/libarchive/header_verbose_list.c
+archival/libarchive/init_handle.c
 archival/libarchive/open_transformer.c
+archival/libarchive/seek_by_jump.c
+archival/libarchive/seek_by_read.c
 
 coreutils/basename.c
 coreutils/cat.c
@@ -40,8 +54,11 @@ coreutils/touch.c
 coreutils/uname.c
 coreutils/libcoreutils/cp_mv_stat.c
 
+debianutils/which.c
+
 e2fsprogs/chattr.c
 e2fsprogs/e2fs_lib.c
+e2fsprogs/fsck.c
 
 editors/sed.c
 
@@ -70,6 +87,7 @@ libbb/find_mount_point.c
 libbb/full_write.c
 libbb/get_last_path_component.c
 libbb/get_line_from_file.c
+libbb/get_volsize.c
 libbb/getopt32.c
 libbb/human_readable.c
 libbb/info_msg.c
@@ -78,6 +96,7 @@ libbb/isdirectory.c
 libbb/last_char_is.c
 libbb/llist.c
 libbb/login.c
+libbb/loop.c
 libbb/make_directory.c
 libbb/match_fstype.c
 libbb/messages.c
@@ -130,6 +149,7 @@ shell/ash_ptr_hack.c
 shell/math.c
 shell/shell_common.c
 
+util-linux/mkfs_ext2.c
 util-linux/mount.c
 util-linux/umount.c
 util-linux/volume_id/get_devname.c
